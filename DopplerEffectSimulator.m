@@ -328,8 +328,7 @@ classdef DopplerEffectSimulator < matlab.apps.AppBase
             if(app.dt - toc < 0)
 
                 % Warn the user that the simulation can't be run correctly
-                % at the current time resolution by blinking the indicator
-                % red
+                % at the current time resolution by blinking the indicator red
                 if(app.blink == 0)
                     app.StatusLamp.Color = [0.5 0.5 0.5];
                     app.blink = 1;
