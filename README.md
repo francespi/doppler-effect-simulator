@@ -3,7 +3,7 @@
 
 ## The Doppler Effect
 
-The Doppler Effect or Doppler Shift is the apparent change in the frequency of a wave as perceived by an observer moving relative to the wave source. When the source is moving towards the observer, the wavelengths appear shorter, resulting in a higher perceived pitch for sound waves or a shift towards the blue end of the spectrum for light waves (blueshift). Conversely, when the source is moving away from the observer, the wavelengths appear longer, resulting in a lower perceived pitch for sound waves or a shift towards the red end of the spectrum for light waves (redshift). 
+The Doppler Effect or Doppler Shift is the apparent change in the frequency of a wave (e.g., sound waves or light waves) as perceived by an observer moving relative to the wave source. When the source is moving towards the observer, the wavelengths appear shorter, resulting in a higher perceived pitch for sound waves or a shift towards the blue end of the spectrum for light waves (blueshift). Conversely, when the source is moving away from the observer, the wavelengths appear longer, resulting in a lower perceived pitch for sound waves or a shift towards the red end of the spectrum for light waves (redshift). 
 
 In general, if the speeds of both the source and the observer relative to the medium are lower than the speed of waves in the medium, we can write: 
 
