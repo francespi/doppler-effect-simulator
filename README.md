@@ -26,3 +26,17 @@ f =  \left (\frac{c}{c \pm v_s} \right ) \cdot f_0
 $$
 
 The latter is the the case we are interested in, as it is the one demonstrated in the current version of the simulator.
+
+## Quickstart Guide
+
+
+1. Simulation Box
+2. Source Frequency Box
+3. Observed Frequency Box
+4. Color Mode Switch
+5. Status LED
+6. Display
+7. Backlight
+8. Text Size
+9. Source Speed
+10. Source Emitted Frequency
