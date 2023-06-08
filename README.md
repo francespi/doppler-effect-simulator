@@ -1,7 +1,17 @@
 # Doppler Effect Simulator
 
+Doppler Effect Simulator is a simple tool designed to explore and visualize, through a user-friendly interface, the intriguing phenomenon of the Doppler Effect.
 
-## The Doppler Effect
+<a name="top"/>
+
+## Table of Contents  
+* [The Doppler Effect](#the-doppler-effect)  
+* [Quickstart Guide](#quickstart-guide)
+* [Additional Information](#additional-info)
+
+<a name="the-doppler-effect"/>
+
+## The Doppler Effect [↑](#top)
 
 The Doppler Effect or Doppler Shift is the apparent change in the frequency of a wave (e.g., sound waves or light waves) as perceived by an observer moving relative to the wave source. When the source is moving towards the observer, the wavelengths appear shorter, resulting in a higher perceived pitch for sound waves or a shift towards the blue end of the spectrum for light waves (blueshift). Conversely, when the source is moving away from the observer, the wavelengths appear longer, resulting in a lower perceived pitch for sound waves or a shift towards the red end of the spectrum for light waves (redshift). 
 
@@ -25,9 +35,11 @@ $$
 f =  \left (\frac{c}{c \pm v_s} \right ) \cdot f_0
 $$
 
-The latter is the the case we are interested in, as it is the one demonstrated in the current version of the simulator.
+The latter is the case we are interested in, as it is the one demonstrated in the current version of the simulator.
 
-## Quickstart Guide
+<a name="quickstart-guide"/>
+
+## Quickstart Guide [↑](#top)  
 
 The picture below shows the simulator GUI.
 
@@ -84,3 +96,13 @@ You can use this knob to select the speed of the source in m/s.
 #### 10. Source Emitted Frequency
 
 You can use this knob to select the emitted frequency in Hz.
+
+<a name="additional-info"/>
+
+## Additional Information [↑](#top)  
+
+Please be aware of the following:
+- Due to rounding results are approximate.
+- Due to timing constraints not every frequency in the knob range is selectable.
+- Due to timing constraints knob sensitivity decreases as frequency increases.
+- Please wait 3-5 seconds at launch before issuing any command to avoid delayed response from the interface.
