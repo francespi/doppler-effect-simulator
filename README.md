@@ -29,14 +29,58 @@ The latter is the the case we are interested in, as it is the one demonstrated i
 
 ## Quickstart Guide
 
+The picture below shows the simulator GUI.
 
-1. Simulation Box
-2. Source Frequency Box
-3. Observed Frequency Box
-4. Color Mode Switch
-5. Status LED
-6. Display
-7. Backlight
-8. Text Size
-9. Source Speed
-10. Source Emitted Frequency
+![Simulator GUI](resources/gui.png)  
+
+#### 1. Simulation Box
+
+This section is where the simulation happens, it shows the source (green), the observer (magenta), and the wavefronts (cyan).
+
+#### 2. Source Frequency Box 
+
+This section shows a time-domain graph of the emitted wave.
+
+#### 3. Observed Frequency Box 
+
+This section shows a time-domain graph of the observed wave.
+
+#### 4. Color Mode Switch  
+
+You can use this switch to toggle between a dark color scheme and a light one.
+
+#### 5. Status LED
+   
+   This blinking "LED" shows simulation status:
+   - Blinking Green: simulation is working properly.
+   - Blinking Red: simulation is too slow, results will be inaccurate.
+
+#### 6. Display 
+
+The display shows the following information:
+
+- Src Speed: it's the speed of the source in meters per second (m/s).
+- Src Wave Speed: it's the propagation speed of the emitted wave, which, in our case, is the speed of sound in air at 20 °C (343 m/s).
+- Src Mach Number: it's the ratio of the source speed to the wave propagation speed in the medium:
+  - < 0.8: the source is moving at subsonic speed.
+  - 0.8 - 1.2: the source is moving at transonic speed.
+  - 1.2 - 5: the source is moving at supersonic speed.
+- Src Distance: it's the distance of the source from the observer in meters.
+- Src Frequency: it's the frequency of the emitted wave in Hertz (Hz).
+- Obs Frequency: it's the frequency of the observed wave in Hz.
+
+#### 7. Backlight
+
+You can use this knob to control the intensity of the background color of the display.
+
+#### 8. Text Size
+
+You can use this knob to enlarge the text displayed.
+
+#### 9. Source Speed
+
+You can use this knob to select the speed of the source in m/s.
+
+#### 10. Source Emitted Frequency
+
+You can use this knob to select the emitted frequency in Hz.
