@@ -25,4 +25,4 @@ $$
 f =  \left (\frac{c}{c \pm v_s} \right ) \cdot f_0
 $$
 
-The latter is the the case we are interested in, as it is the one demonstrated in the simulator.
+The latter is the the case we are interested in, as it is the one demonstrated in the current version of the simulator.
