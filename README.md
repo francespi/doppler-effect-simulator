@@ -1,3 +1,5 @@
+ > ⚠️  Please note that this document is a work in progress and may not include all the required details at this stage.
+ 
 # Doppler Effect Simulator
 
 Doppler Effect Simulator is a simple tool designed to explore and visualize, through a user-friendly interface, the intriguing phenomenon of the Doppler Effect.
