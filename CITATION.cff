@@ -4,7 +4,7 @@ authors:
 - family-names: "Pizzo"
   given-names: "Francesco"
   orcid: "https://orcid.org/0009-0008-9977-5346"
-title: "doppler-effect-simulator"
+title: "Doppler Effect Simulator"
 version: 1.0.0
 date-released: 2023-05-25
 url: "https://github.com/francespi/doppler-effect-simulator"
